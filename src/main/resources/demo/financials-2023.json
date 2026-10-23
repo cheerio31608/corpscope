@@ -1,0 +1,91 @@
+{
+  "status": "000",
+  "message": "가상 데모 데이터",
+  "demo": true,
+  "list": [
+    {
+      "corp_code": "00000001",
+      "bsns_year": "2023",
+      "reprt_code": "11011",
+      "rcept_no": "20240401000001",
+      "sj_div": "IS",
+      "account_id": "ifrs-full_Revenue",
+      "account_nm": "매출액",
+      "account_detail": "",
+      "thstrm_amount": "1,000",
+      "thstrm_add_amount": "",
+      "currency": "KRW",
+      "ord": "1"
+    },
+    {
+      "corp_code": "00000001",
+      "bsns_year": "2023",
+      "reprt_code": "11011",
+      "rcept_no": "20240401000001",
+      "sj_div": "IS",
+      "account_id": "dart_OperatingIncomeLoss",
+      "account_nm": "영업이익",
+      "account_detail": "",
+      "thstrm_amount": "150",
+      "thstrm_add_amount": "",
+      "currency": "KRW",
+      "ord": "2"
+    },
+    {
+      "corp_code": "00000001",
+      "bsns_year": "2023",
+      "reprt_code": "11011",
+      "rcept_no": "20240401000001",
+      "sj_div": "IS",
+      "account_id": "ifrs-full_ProfitLoss",
+      "account_nm": "당기순이익",
+      "account_detail": "",
+      "thstrm_amount": "100",
+      "thstrm_add_amount": "",
+      "currency": "KRW",
+      "ord": "3"
+    },
+    {
+      "corp_code": "00000001",
+      "bsns_year": "2023",
+      "reprt_code": "11011",
+      "rcept_no": "20240401000001",
+      "sj_div": "BS",
+      "account_id": "ifrs-full_Assets",
+      "account_nm": "자산총계",
+      "account_detail": "",
+      "thstrm_amount": "1,800",
+      "thstrm_add_amount": "",
+      "currency": "KRW",
+      "ord": "4"
+    },
+    {
+      "corp_code": "00000001",
+      "bsns_year": "2023",
+      "reprt_code": "11011",
+      "rcept_no": "20240401000001",
+      "sj_div": "BS",
+      "account_id": "ifrs-full_Liabilities",
+      "account_nm": "부채총계",
+      "account_detail": "",
+      "thstrm_amount": "700",
+      "thstrm_add_amount": "",
+      "currency": "KRW",
+      "ord": "5"
+    },
+    {
+      "corp_code": "00000001",
+      "bsns_year": "2023",
+      "reprt_code": "11011",
+      "rcept_no": "20240401000001",
+      "sj_div": "BS",
+      "account_id": "ifrs-full_Equity",
+      "account_nm": "자본총계",
+      "account_detail": "",
+      "thstrm_amount": "1,100",
+      "thstrm_add_amount": "",
+      "currency": "KRW",
+      "ord": "6"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "status": "000",
+  "message": "가상 데모 데이터",
+  "corp_code": "00000001",
+  "corp_name": "CorpScope 데모기업",
+  "stock_code": "",
+  "jurir_no": "",
+  "bizr_no": "",
+  "ceo_nm": "가상 대표",
+  "induty_code": "000",
+  "est_dt": "20200101",
+  "adres": "가상 주소",
+  "hm_url": "",
+  "demo": true
+}

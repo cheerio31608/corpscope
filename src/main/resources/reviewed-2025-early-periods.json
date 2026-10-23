@@ -1,0 +1,1354 @@
+{
+  "profiles": [
+    {
+      "corpCode": "00106641",
+      "fiscalYear": 2025,
+      "reportType": "HALF_YEAR",
+      "receiptNumber": "20250814003814",
+      "documentSha256": "dac10e83c94e353d115f724ad8ace03aa5f5cb46842ca083518c8a80009bcb37",
+      "rows": [
+        {
+          "account": "ASSETS",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Assets",
+          "label": "자산총계",
+          "context": "CFY2025eHYA",
+          "amount": "93662226000000",
+          "cumulative": null,
+          "displayUnit": 1000000
+        },
+        {
+          "account": "LIABILITIES",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Liabilities",
+          "label": "부채총계",
+          "context": "CFY2025eHYA",
+          "amount": "36751668000000",
+          "cumulative": null,
+          "displayUnit": 1000000
+        },
+        {
+          "account": "EQUITY",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Equity",
+          "label": "자본총계",
+          "context": "CFY2025eHYA",
+          "amount": "56910558000000",
+          "cumulative": null,
+          "displayUnit": 1000000
+        },
+        {
+          "account": "REVENUE",
+          "division": "IS",
+          "group": "{XBRL}IS_C2",
+          "code": "ifrs-full_Revenue",
+          "label": "매출액",
+          "context": "CFY2025dHYQ",
+          "amount": "29349635000000",
+          "cumulative": "57367145000000",
+          "displayUnit": 1000000
+        },
+        {
+          "account": "OPERATING_PROFIT",
+          "division": "IS",
+          "group": "{XBRL}IS_C2",
+          "code": "dart_OperatingIncomeLoss",
+          "label": "영업이익",
+          "context": "CFY2025dHYQ",
+          "amount": "2764766000000",
+          "cumulative": "5773354000000",
+          "displayUnit": 1000000
+        },
+        {
+          "account": "NET_INCOME",
+          "division": "IS",
+          "group": "{XBRL}IS_C2",
+          "code": "ifrs-full_ProfitLoss",
+          "label": "반기순이익",
+          "context": "CFY2025dHYQ",
+          "amount": "2268222000000",
+          "cumulative": "4660812000000",
+          "displayUnit": 1000000
+        }
+      ]
+    },
+    {
+      "corpCode": "00126380",
+      "fiscalYear": 2025,
+      "reportType": "HALF_YEAR",
+      "receiptNumber": "20250814003156",
+      "documentSha256": "459beb75bd07240bc0692f9e2ce5a850fca39e852ecdabfeef33fb22b39dc897",
+      "rows": [
+        {
+          "account": "ASSETS",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Assets",
+          "label": "자산총계",
+          "context": "CFY2025eHYA",
+          "amount": "504875185000000",
+          "cumulative": null,
+          "displayUnit": 1000000
+        },
+        {
+          "account": "LIABILITIES",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Liabilities",
+          "label": "부채총계",
+          "context": "CFY2025eHYA",
+          "amount": "105313218000000",
+          "cumulative": null,
+          "displayUnit": 1000000
+        },
+        {
+          "account": "EQUITY",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Equity",
+          "label": "자본총계",
+          "context": "CFY2025eHYA",
+          "amount": "399561967000000",
+          "cumulative": null,
+          "displayUnit": 1000000
+        },
+        {
+          "account": "REVENUE",
+          "division": "IS",
+          "group": "{XBRL}IS_C2",
+          "code": "ifrs-full_Revenue",
+          "label": "매출액 (주27)",
+          "context": "CFY2025dHYQ",
+          "amount": "74566317000000",
+          "cumulative": "153706820000000",
+          "displayUnit": 1000000
+        },
+        {
+          "account": "OPERATING_PROFIT",
+          "division": "IS",
+          "group": "{XBRL}IS_C2",
+          "code": "dart_OperatingIncomeLoss",
+          "label": "영업이익 (주27)",
+          "context": "CFY2025dHYQ",
+          "amount": "4676057000000",
+          "cumulative": "11361329000000",
+          "displayUnit": 1000000
+        },
+        {
+          "account": "NET_INCOME",
+          "division": "IS",
+          "group": "{XBRL}IS_C2",
+          "code": "ifrs-full_ProfitLoss",
+          "label": "반기순이익",
+          "context": "CFY2025dHYQ",
+          "amount": "5116435000000",
+          "cumulative": "13339313000000",
+          "displayUnit": 1000000
+        }
+      ]
+    },
+    {
+      "corpCode": "00164742",
+      "fiscalYear": 2025,
+      "reportType": "HALF_YEAR",
+      "receiptNumber": "20250814003906",
+      "documentSha256": "3de31dcaf0aeb19709fb45adff2353b6f2459b1c1f892d2a0556de42af76a1a2",
+      "rows": [
+        {
+          "account": "ASSETS",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Assets",
+          "label": "자산총계",
+          "context": "CFY2025eHYA",
+          "amount": "339702469000000",
+          "cumulative": null,
+          "displayUnit": 1000000
+        },
+        {
+          "account": "LIABILITIES",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Liabilities",
+          "label": "부채총계",
+          "context": "CFY2025eHYA",
+          "amount": "218165355000000",
+          "cumulative": null,
+          "displayUnit": 1000000
+        },
+        {
+          "account": "EQUITY",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Equity",
+          "label": "자본총계",
+          "context": "CFY2025eHYA",
+          "amount": "121537114000000",
+          "cumulative": null,
+          "displayUnit": 1000000
+        },
+        {
+          "account": "REVENUE",
+          "division": "IS",
+          "group": "{XBRL}IS_C2",
+          "code": "ifrs-full_Revenue",
+          "label": "매출액",
+          "context": "CFY2025dHYQ",
+          "amount": "48286677000000",
+          "cumulative": "92694438000000",
+          "displayUnit": 1000000
+        },
+        {
+          "account": "OPERATING_PROFIT",
+          "division": "IS",
+          "group": "{XBRL}IS_C2",
+          "code": "dart_OperatingIncomeLoss",
+          "label": "영업이익",
+          "context": "CFY2025dHYQ",
+          "amount": "3601597000000",
+          "cumulative": "7235206000000",
+          "displayUnit": 1000000
+        },
+        {
+          "account": "NET_INCOME",
+          "division": "IS",
+          "group": "{XBRL}IS_C2",
+          "code": "ifrs-full_ProfitLoss",
+          "label": "연결반기순이익",
+          "context": "CFY2025dHYQ",
+          "amount": "3250390000000",
+          "cumulative": "6632564000000",
+          "displayUnit": 1000000
+        }
+      ]
+    },
+    {
+      "corpCode": "00164779",
+      "fiscalYear": 2025,
+      "reportType": "HALF_YEAR",
+      "receiptNumber": "20250814003049",
+      "documentSha256": "ac355f12b360fedf8146ffb700172080274e9dcaf93461b0d8310af966a20c94",
+      "rows": [
+        {
+          "account": "ASSETS",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Assets",
+          "label": "자산총계",
+          "context": "CFY2025eHYA",
+          "amount": "129087781000000",
+          "cumulative": null,
+          "displayUnit": 1000000
+        },
+        {
+          "account": "LIABILITIES",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Liabilities",
+          "label": "부채총계",
+          "context": "CFY2025eHYA",
+          "amount": "41945296000000",
+          "cumulative": null,
+          "displayUnit": 1000000
+        },
+        {
+          "account": "EQUITY",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Equity",
+          "label": "자본총계",
+          "context": "CFY2025eHYA",
+          "amount": "87142485000000",
+          "cumulative": null,
+          "displayUnit": 1000000
+        },
+        {
+          "account": "REVENUE",
+          "division": "CIS",
+          "group": "{XBRL}IS_C1",
+          "code": "ifrs-full_Revenue",
+          "label": "매출액 (주4,21,28)",
+          "context": "CFY2025dHYQ",
+          "amount": "22231952000000",
+          "cumulative": "39871093000000",
+          "displayUnit": 1000000
+        },
+        {
+          "account": "OPERATING_PROFIT",
+          "division": "CIS",
+          "group": "{XBRL}IS_C1",
+          "code": "dart_OperatingIncomeLoss",
+          "label": "영업이익",
+          "context": "CFY2025dHYQ",
+          "amount": "9212851000000",
+          "cumulative": "16653355000000",
+          "displayUnit": 1000000
+        },
+        {
+          "account": "NET_INCOME",
+          "division": "CIS",
+          "group": "{XBRL}IS_C1",
+          "code": "ifrs-full_ProfitLoss",
+          "label": "반기순이익",
+          "context": "CFY2025dHYQ",
+          "amount": "6996216000000",
+          "cumulative": "15104411000000",
+          "displayUnit": 1000000
+        }
+      ]
+    },
+    {
+      "corpCode": "00261285",
+      "fiscalYear": 2025,
+      "reportType": "HALF_YEAR",
+      "receiptNumber": "20250814001230",
+      "documentSha256": "1ff0f1751c7f88b5728e8a338bea17650da4c8a4efda663feb3eec9666a71052",
+      "rows": [
+        {
+          "account": "ASSETS",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Assets",
+          "label": "자산총계",
+          "context": "CFY2025eHYA",
+          "amount": "50888627000000",
+          "cumulative": null,
+          "displayUnit": 1000000
+        },
+        {
+          "account": "LIABILITIES",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Liabilities",
+          "label": "부채총계",
+          "context": "CFY2025eHYA",
+          "amount": "39895801000000",
+          "cumulative": null,
+          "displayUnit": 1000000
+        },
+        {
+          "account": "EQUITY",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Equity",
+          "label": "자본총계",
+          "context": "CFY2025eHYA",
+          "amount": "10992826000000",
+          "cumulative": null,
+          "displayUnit": 1000000
+        },
+        {
+          "account": "REVENUE",
+          "division": "CIS",
+          "group": "{XBRL}IS_C1",
+          "code": "ifrs-full_Revenue",
+          "label": "수익(매출액)",
+          "context": "CFY2025dHYQ",
+          "amount": "7630102000000",
+          "cumulative": "20362811000000",
+          "displayUnit": 1000000
+        },
+        {
+          "account": "OPERATING_PROFIT",
+          "division": "CIS",
+          "group": "{XBRL}IS_C1",
+          "code": "dart_OperatingIncomeLoss",
+          "label": "영업이익(손실)",
+          "context": "CFY2025dHYQ",
+          "amount": "404628000000",
+          "cumulative": "1238563000000",
+          "displayUnit": 1000000
+        },
+        {
+          "account": "NET_INCOME",
+          "division": "CIS",
+          "group": "{XBRL}IS_C1",
+          "code": "ifrs-full_ProfitLoss",
+          "label": "당기순이익(손실)",
+          "context": "CFY2025dHYQ",
+          "amount": "85109000000",
+          "cumulative": "452283000000",
+          "displayUnit": 1000000
+        }
+      ]
+    },
+    {
+      "corpCode": "00266961",
+      "fiscalYear": 2025,
+      "reportType": "HALF_YEAR",
+      "receiptNumber": "20250814002281",
+      "documentSha256": "c94f97ba5bd3d510af914072b128e6ffdfd14f06ff4bd5047401c71db55f12eb",
+      "rows": [
+        {
+          "account": "ASSETS",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Assets",
+          "label": "자산총계",
+          "context": "CFY2025eHYA",
+          "amount": "39351060803109",
+          "cumulative": null,
+          "displayUnit": 1
+        },
+        {
+          "account": "LIABILITIES",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Liabilities",
+          "label": "부채총계",
+          "context": "CFY2025eHYA",
+          "amount": "11415295638497",
+          "cumulative": null,
+          "displayUnit": 1
+        },
+        {
+          "account": "EQUITY",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Equity",
+          "label": "자본총계",
+          "context": "CFY2025eHYA",
+          "amount": "27935765164612",
+          "cumulative": null,
+          "displayUnit": 1
+        },
+        {
+          "account": "REVENUE",
+          "division": "CIS",
+          "group": "{XBRL}IS_C1",
+          "code": "ifrs-full_Revenue",
+          "label": "영업수익 (주5)",
+          "context": "CFY2025dHYQ",
+          "amount": "2915085056213",
+          "cumulative": "5701868408120",
+          "displayUnit": 1
+        },
+        {
+          "account": "OPERATING_PROFIT",
+          "division": "CIS",
+          "group": "{XBRL}IS_C1",
+          "code": "dart_OperatingIncomeLoss",
+          "label": "영업이익",
+          "context": "CFY2025dHYQ",
+          "amount": "521553747074",
+          "cumulative": "1026855081011",
+          "displayUnit": 1
+        },
+        {
+          "account": "NET_INCOME",
+          "division": "CIS",
+          "group": "{XBRL}IS_C1",
+          "code": "ifrs-full_ProfitLoss",
+          "label": "반기순이익(손실)",
+          "context": "CFY2025dHYQ",
+          "amount": "497358303760",
+          "cumulative": "921019633550",
+          "displayUnit": 1
+        }
+      ]
+    },
+    {
+      "corpCode": "01390344",
+      "fiscalYear": 2025,
+      "reportType": "HALF_YEAR",
+      "receiptNumber": "20250814002347",
+      "documentSha256": "a00e9d75a6ba4340a0864ddb14735495684fd03df04625a466f9268c80a42990",
+      "rows": [
+        {
+          "account": "ASSETS",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Assets",
+          "label": "자산총계",
+          "context": "CFY2025eHYA",
+          "amount": "19741439470000",
+          "cumulative": null,
+          "displayUnit": 1000
+        },
+        {
+          "account": "LIABILITIES",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Liabilities",
+          "label": "부채총계",
+          "context": "CFY2025eHYA",
+          "amount": "13558714916000",
+          "cumulative": null,
+          "displayUnit": 1000
+        },
+        {
+          "account": "EQUITY",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Equity",
+          "label": "자본총계",
+          "context": "CFY2025eHYA",
+          "amount": "6182724554000",
+          "cumulative": null,
+          "displayUnit": 1000
+        },
+        {
+          "account": "REVENUE",
+          "division": "CIS",
+          "group": "{XBRL}IS_C1",
+          "code": "ifrs-full_Revenue",
+          "label": "매출액 (주24,29,30,38,42)",
+          "context": "CFY2025dHYQ",
+          "amount": "4147124837000",
+          "cumulative": "7969640578000",
+          "displayUnit": 1000
+        },
+        {
+          "account": "OPERATING_PROFIT",
+          "division": "CIS",
+          "group": "{XBRL}IS_C1",
+          "code": "dart_OperatingIncomeLoss",
+          "label": "영업이익",
+          "context": "CFY2025dHYQ",
+          "amount": "471455984000",
+          "cumulative": "905190156000",
+          "displayUnit": 1000
+        },
+        {
+          "account": "NET_INCOME",
+          "division": "CIS",
+          "group": "{XBRL}IS_C1",
+          "code": "ifrs-full_ProfitLoss",
+          "label": "반기순이익",
+          "context": "CFY2025dHYQ",
+          "amount": "210911338000",
+          "cumulative": "495141653000",
+          "displayUnit": 1000
+        }
+      ]
+    },
+    {
+      "corpCode": "01515323",
+      "fiscalYear": 2025,
+      "reportType": "HALF_YEAR",
+      "receiptNumber": "20250814001590",
+      "documentSha256": "35bb9e8d0d4267555d37e6d6c258ba5a1b9132ddebe8cf6c5b37455afda72a4c",
+      "rows": [
+        {
+          "account": "ASSETS",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Assets",
+          "label": "자산총계",
+          "context": "CFY2025eHYA",
+          "amount": "62982502000000",
+          "cumulative": null,
+          "displayUnit": 1000000
+        },
+        {
+          "account": "LIABILITIES",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Liabilities",
+          "label": "부채총계",
+          "context": "CFY2025eHYA",
+          "amount": "34682328000000",
+          "cumulative": null,
+          "displayUnit": 1000000
+        },
+        {
+          "account": "EQUITY",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Equity",
+          "label": "자본총계",
+          "context": "CFY2025eHYA",
+          "amount": "28300174000000",
+          "cumulative": null,
+          "displayUnit": 1000000
+        },
+        {
+          "account": "REVENUE",
+          "division": "IS",
+          "group": "{XBRL}IS_C2",
+          "code": "ifrs-full_Revenue",
+          "label": "매출액",
+          "context": "CFY2025dHYQ",
+          "amount": "5565408000000",
+          "cumulative": "11830403000000",
+          "displayUnit": 1000000
+        },
+        {
+          "account": "OPERATING_PROFIT",
+          "division": "IS",
+          "group": "{XBRL}IS_C2",
+          "code": "dart_OperatingIncomeLoss",
+          "label": "영업이익",
+          "context": "CFY2025dHYQ",
+          "amount": "492159000000",
+          "cumulative": "866832000000",
+          "displayUnit": 1000000
+        },
+        {
+          "account": "NET_INCOME",
+          "division": "IS",
+          "group": "{XBRL}IS_C2",
+          "code": "ifrs-full_ProfitLoss",
+          "label": "반기순이익(손실)",
+          "context": "CFY2025dHYQ",
+          "amount": "90605000000",
+          "cumulative": "317178000000",
+          "displayUnit": 1000000
+        }
+      ]
+    },
+    {
+      "corpCode": "00106641",
+      "fiscalYear": 2025,
+      "reportType": "Q1",
+      "receiptNumber": "20250515001947",
+      "documentSha256": "fed419d204ad9b2c00e175037a32afb3f48b3279224865914d803713a9f5d5f0",
+      "rows": [
+        {
+          "account": "ASSETS",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Assets",
+          "label": "자산총계",
+          "context": "CFY2025eFQA",
+          "amount": "96285813000000",
+          "cumulative": null,
+          "displayUnit": 1000000
+        },
+        {
+          "account": "LIABILITIES",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Liabilities",
+          "label": "부채총계",
+          "context": "CFY2025eFQA",
+          "amount": "40269635000000",
+          "cumulative": null,
+          "displayUnit": 1000000
+        },
+        {
+          "account": "EQUITY",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Equity",
+          "label": "자본총계",
+          "context": "CFY2025eFQA",
+          "amount": "56016178000000",
+          "cumulative": null,
+          "displayUnit": 1000000
+        },
+        {
+          "account": "REVENUE",
+          "division": "IS",
+          "group": "{XBRL}IS_C2",
+          "code": "ifrs-full_Revenue",
+          "label": "매출액",
+          "context": "CFY2025dFQQ",
+          "amount": "28017510000000",
+          "cumulative": "28017510000000",
+          "displayUnit": 1000000
+        },
+        {
+          "account": "OPERATING_PROFIT",
+          "division": "IS",
+          "group": "{XBRL}IS_C2",
+          "code": "dart_OperatingIncomeLoss",
+          "label": "영업이익",
+          "context": "CFY2025dFQQ",
+          "amount": "3008588000000",
+          "cumulative": "3008588000000",
+          "displayUnit": 1000000
+        },
+        {
+          "account": "NET_INCOME",
+          "division": "IS",
+          "group": "{XBRL}IS_C2",
+          "code": "ifrs-full_ProfitLoss",
+          "label": "당기순이익",
+          "context": "CFY2025dFQQ",
+          "amount": "2392590000000",
+          "cumulative": "2392590000000",
+          "displayUnit": 1000000
+        }
+      ]
+    },
+    {
+      "corpCode": "00126380",
+      "fiscalYear": 2025,
+      "reportType": "Q1",
+      "receiptNumber": "20250515001922",
+      "documentSha256": "82d6fae2a6ce6ec2b0b750e112ae8b34609881bbb7277854f0c7c5012268c8f7",
+      "rows": [
+        {
+          "account": "ASSETS",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Assets",
+          "label": "자산총계",
+          "context": "CFY2025eFQA",
+          "amount": "516376748000000",
+          "cumulative": null,
+          "displayUnit": 1000000
+        },
+        {
+          "account": "LIABILITIES",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Liabilities",
+          "label": "부채총계",
+          "context": "CFY2025eFQA",
+          "amount": "109762479000000",
+          "cumulative": null,
+          "displayUnit": 1000000
+        },
+        {
+          "account": "EQUITY",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Equity",
+          "label": "자본총계",
+          "context": "CFY2025eFQA",
+          "amount": "406614269000000",
+          "cumulative": null,
+          "displayUnit": 1000000
+        },
+        {
+          "account": "REVENUE",
+          "division": "IS",
+          "group": "{XBRL}IS_C2",
+          "code": "ifrs-full_Revenue",
+          "label": "매출액 (주26)",
+          "context": "CFY2025dFQQ",
+          "amount": "79140503000000",
+          "cumulative": "79140503000000",
+          "displayUnit": 1000000
+        },
+        {
+          "account": "OPERATING_PROFIT",
+          "division": "IS",
+          "group": "{XBRL}IS_C2",
+          "code": "dart_OperatingIncomeLoss",
+          "label": "영업이익 (주26)",
+          "context": "CFY2025dFQQ",
+          "amount": "6685272000000",
+          "cumulative": "6685272000000",
+          "displayUnit": 1000000
+        },
+        {
+          "account": "NET_INCOME",
+          "division": "IS",
+          "group": "{XBRL}IS_C2",
+          "code": "ifrs-full_ProfitLoss",
+          "label": "분기순이익",
+          "context": "CFY2025dFQQ",
+          "amount": "8222878000000",
+          "cumulative": "8222878000000",
+          "displayUnit": 1000000
+        }
+      ]
+    },
+    {
+      "corpCode": "00145880",
+      "fiscalYear": 2025,
+      "reportType": "Q1",
+      "receiptNumber": "20250515002501",
+      "documentSha256": "0916a44751f730c8cba71fcb885ba47ac5b28c0f1b681bf8a3160482e415019e",
+      "rows": [
+        {
+          "account": "ASSETS",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Assets",
+          "label": "자산총계",
+          "context": "CFY2025eFQA",
+          "amount": "34745200393673",
+          "cumulative": null,
+          "displayUnit": 1
+        },
+        {
+          "account": "LIABILITIES",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Liabilities",
+          "label": "부채총계",
+          "context": "CFY2025eFQA",
+          "amount": "15439622878862",
+          "cumulative": null,
+          "displayUnit": 1
+        },
+        {
+          "account": "EQUITY",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Equity",
+          "label": "자본총계",
+          "context": "CFY2025eFQA",
+          "amount": "19305577514811",
+          "cumulative": null,
+          "displayUnit": 1
+        },
+        {
+          "account": "REVENUE",
+          "division": "CIS",
+          "group": "{XBRL}IS_C1",
+          "code": "ifrs-full_Revenue",
+          "label": "매출액 (주30,32)",
+          "context": "CFY2025dFQQ",
+          "amount": "5563465036922",
+          "cumulative": "5563465036922",
+          "displayUnit": 1
+        },
+        {
+          "account": "OPERATING_PROFIT",
+          "division": "CIS",
+          "group": "{XBRL}IS_C1",
+          "code": "dart_OperatingIncomeLoss",
+          "label": "영업이익(손실) (주32)",
+          "context": "CFY2025dFQQ",
+          "amount": "-19028045095",
+          "cumulative": "-19028045095",
+          "displayUnit": 1
+        },
+        {
+          "account": "NET_INCOME",
+          "division": "CIS",
+          "group": "{XBRL}IS_C1",
+          "code": "ifrs-full_ProfitLoss",
+          "label": "분기순이익(손실)",
+          "context": "CFY2025dFQQ",
+          "amount": "-54393174968",
+          "cumulative": "-54393174968",
+          "displayUnit": 1
+        }
+      ]
+    },
+    {
+      "corpCode": "00159193",
+      "fiscalYear": 2025,
+      "reportType": "Q1",
+      "receiptNumber": "20250515002275",
+      "documentSha256": "909d457787799441ac208d6c36054015287e5d10d01f4b27ba4f42552e173f7b",
+      "rows": [
+        {
+          "account": "ASSETS",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Assets",
+          "label": "자산총계",
+          "context": "CFY2025eFQA",
+          "amount": "249913097000000",
+          "cumulative": null,
+          "displayUnit": 1000000
+        },
+        {
+          "account": "LIABILITIES",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Liabilities",
+          "label": "부채총계",
+          "context": "CFY2025eFQA",
+          "amount": "206801975000000",
+          "cumulative": null,
+          "displayUnit": 1000000
+        },
+        {
+          "account": "EQUITY",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Equity",
+          "label": "자본총계",
+          "context": "CFY2025eFQA",
+          "amount": "43111122000000",
+          "cumulative": null,
+          "displayUnit": 1000000
+        },
+        {
+          "account": "REVENUE",
+          "division": "CIS",
+          "group": "{XBRL}IS_C1",
+          "code": "ifrs-full_Revenue",
+          "label": "매출액",
+          "context": "CFY2025dFQQ",
+          "amount": "24223984000000",
+          "cumulative": "24223984000000",
+          "displayUnit": 1000000
+        },
+        {
+          "account": "OPERATING_PROFIT",
+          "division": "CIS",
+          "group": "{XBRL}IS_C1",
+          "code": "dart_OperatingIncomeLoss",
+          "label": "영업이익(손실)",
+          "context": "CFY2025dFQQ",
+          "amount": "3753607000000",
+          "cumulative": "3753607000000",
+          "displayUnit": 1000000
+        },
+        {
+          "account": "NET_INCOME",
+          "division": "CIS",
+          "group": "{XBRL}IS_C1",
+          "code": "ifrs-full_ProfitLoss",
+          "label": "당기순이익(손실)",
+          "context": "CFY2025dFQQ",
+          "amount": "2361708000000",
+          "cumulative": "2361708000000",
+          "displayUnit": 1000000
+        }
+      ]
+    },
+    {
+      "corpCode": "00164742",
+      "fiscalYear": 2025,
+      "reportType": "Q1",
+      "receiptNumber": "20250515001159",
+      "documentSha256": "ef4c699bc07b75af92ee1cf2d854f2a0824cf133f02944faeecf009f72e75aed",
+      "rows": [
+        {
+          "account": "ASSETS",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Assets",
+          "label": "자산총계",
+          "context": "CFY2025eFQA",
+          "amount": "343630337000000",
+          "cumulative": null,
+          "displayUnit": 1000000
+        },
+        {
+          "account": "LIABILITIES",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Liabilities",
+          "label": "부채총계",
+          "context": "CFY2025eFQA",
+          "amount": "222065143000000",
+          "cumulative": null,
+          "displayUnit": 1000000
+        },
+        {
+          "account": "EQUITY",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Equity",
+          "label": "자본총계",
+          "context": "CFY2025eFQA",
+          "amount": "121565194000000",
+          "cumulative": null,
+          "displayUnit": 1000000
+        },
+        {
+          "account": "REVENUE",
+          "division": "IS",
+          "group": "{XBRL}IS_C2",
+          "code": "ifrs-full_Revenue",
+          "label": "매출액",
+          "context": "CFY2025dFQQ",
+          "amount": "44407761000000",
+          "cumulative": "44407761000000",
+          "displayUnit": 1000000
+        },
+        {
+          "account": "OPERATING_PROFIT",
+          "division": "IS",
+          "group": "{XBRL}IS_C2",
+          "code": "dart_OperatingIncomeLoss",
+          "label": "영업이익",
+          "context": "CFY2025dFQQ",
+          "amount": "3633609000000",
+          "cumulative": "3633609000000",
+          "displayUnit": 1000000
+        },
+        {
+          "account": "NET_INCOME",
+          "division": "IS",
+          "group": "{XBRL}IS_C2",
+          "code": "ifrs-full_ProfitLoss",
+          "label": "연결분기순이익",
+          "context": "CFY2025dFQQ",
+          "amount": "3382174000000",
+          "cumulative": "3382174000000",
+          "displayUnit": 1000000
+        }
+      ]
+    },
+    {
+      "corpCode": "00164779",
+      "fiscalYear": 2025,
+      "reportType": "Q1",
+      "receiptNumber": "20250515002103",
+      "documentSha256": "6eadd018b5979c108d58a635a10c0fb97563259d2ccce30343defc2d164f9d83",
+      "rows": [
+        {
+          "account": "ASSETS",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Assets",
+          "label": "자산총계",
+          "context": "CFY2025eFQA",
+          "amount": "123985470000000",
+          "cumulative": null,
+          "displayUnit": 1000000
+        },
+        {
+          "account": "LIABILITIES",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Liabilities",
+          "label": "부채총계",
+          "context": "CFY2025eFQA",
+          "amount": "42546717000000",
+          "cumulative": null,
+          "displayUnit": 1000000
+        },
+        {
+          "account": "EQUITY",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Equity",
+          "label": "자본총계",
+          "context": "CFY2025eFQA",
+          "amount": "81438753000000",
+          "cumulative": null,
+          "displayUnit": 1000000
+        },
+        {
+          "account": "REVENUE",
+          "division": "CIS",
+          "group": "{XBRL}IS_C1",
+          "code": "ifrs-full_Revenue",
+          "label": "매출액 (주4,21,28)",
+          "context": "CFY2025dFQQ",
+          "amount": "17639141000000",
+          "cumulative": "17639141000000",
+          "displayUnit": 1000000
+        },
+        {
+          "account": "OPERATING_PROFIT",
+          "division": "CIS",
+          "group": "{XBRL}IS_C1",
+          "code": "dart_OperatingIncomeLoss",
+          "label": "영업이익",
+          "context": "CFY2025dFQQ",
+          "amount": "7440504000000",
+          "cumulative": "7440504000000",
+          "displayUnit": 1000000
+        },
+        {
+          "account": "NET_INCOME",
+          "division": "CIS",
+          "group": "{XBRL}IS_C1",
+          "code": "ifrs-full_ProfitLoss",
+          "label": "분기순이익",
+          "context": "CFY2025dFQQ",
+          "amount": "8108195000000",
+          "cumulative": "8108195000000",
+          "displayUnit": 1000000
+        }
+      ]
+    },
+    {
+      "corpCode": "00261285",
+      "fiscalYear": 2025,
+      "reportType": "Q1",
+      "receiptNumber": "20250515000625",
+      "documentSha256": "ae414eb5f0d7822e93f791d780b67ee200c7ed48ad316364f6a620e66372d220",
+      "rows": [
+        {
+          "account": "ASSETS",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Assets",
+          "label": "자산총계",
+          "context": "CFY2025eFQA",
+          "amount": "55481504000000",
+          "cumulative": null,
+          "displayUnit": 1000000
+        },
+        {
+          "account": "LIABILITIES",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Liabilities",
+          "label": "부채총계",
+          "context": "CFY2025eFQA",
+          "amount": "44425963000000",
+          "cumulative": null,
+          "displayUnit": 1000000
+        },
+        {
+          "account": "EQUITY",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Equity",
+          "label": "자본총계",
+          "context": "CFY2025eFQA",
+          "amount": "11055541000000",
+          "cumulative": null,
+          "displayUnit": 1000000
+        },
+        {
+          "account": "REVENUE",
+          "division": "CIS",
+          "group": "{XBRL}IS_C1",
+          "code": "ifrs-full_Revenue",
+          "label": "영업수익",
+          "context": "CFY2025dFQQ",
+          "amount": "12732709000000",
+          "cumulative": "12732709000000",
+          "displayUnit": 1000000
+        },
+        {
+          "account": "OPERATING_PROFIT",
+          "division": "CIS",
+          "group": "{XBRL}IS_C1",
+          "code": "dart_OperatingIncomeLoss",
+          "label": "영업이익(손실)",
+          "context": "CFY2025dFQQ",
+          "amount": "833935000000",
+          "cumulative": "833935000000",
+          "displayUnit": 1000000
+        },
+        {
+          "account": "NET_INCOME",
+          "division": "CIS",
+          "group": "{XBRL}IS_C1",
+          "code": "ifrs-full_ProfitLoss",
+          "label": "당기순이익(손실)",
+          "context": "CFY2025dFQQ",
+          "amount": "367174000000",
+          "cumulative": "367174000000",
+          "displayUnit": 1000000
+        }
+      ]
+    },
+    {
+      "corpCode": "00266961",
+      "fiscalYear": 2025,
+      "reportType": "Q1",
+      "receiptNumber": "20250515001302",
+      "documentSha256": "60d8f268a5b1341957b769646ce1cbddec70da53d9d1babdd8e211bb12516859",
+      "rows": [
+        {
+          "account": "ASSETS",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Assets",
+          "label": "자산총계",
+          "context": "CFY2025eFQA",
+          "amount": "39314022130825",
+          "cumulative": null,
+          "displayUnit": 1
+        },
+        {
+          "account": "LIABILITIES",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Liabilities",
+          "label": "부채총계",
+          "context": "CFY2025eFQA",
+          "amount": "11284404608985",
+          "cumulative": null,
+          "displayUnit": 1
+        },
+        {
+          "account": "EQUITY",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Equity",
+          "label": "자본총계",
+          "context": "CFY2025eFQA",
+          "amount": "28029617521840",
+          "cumulative": null,
+          "displayUnit": 1
+        },
+        {
+          "account": "REVENUE",
+          "division": "CIS",
+          "group": "{XBRL}IS_C1",
+          "code": "ifrs-full_Revenue",
+          "label": "영업수익 (주5)",
+          "context": "CFY2025dFQQ",
+          "amount": "2786783351907",
+          "cumulative": "2786783351907",
+          "displayUnit": 1
+        },
+        {
+          "account": "OPERATING_PROFIT",
+          "division": "CIS",
+          "group": "{XBRL}IS_C1",
+          "code": "dart_OperatingIncomeLoss",
+          "label": "영업이익",
+          "context": "CFY2025dFQQ",
+          "amount": "505301333937",
+          "cumulative": "505301333937",
+          "displayUnit": 1
+        },
+        {
+          "account": "NET_INCOME",
+          "division": "CIS",
+          "group": "{XBRL}IS_C1",
+          "code": "ifrs-full_ProfitLoss",
+          "label": "분기순이익(손실)",
+          "context": "CFY2025dFQQ",
+          "amount": "423661329790",
+          "cumulative": "423661329790",
+          "displayUnit": 1
+        }
+      ]
+    },
+    {
+      "corpCode": "01390344",
+      "fiscalYear": 2025,
+      "reportType": "Q1",
+      "receiptNumber": "20250515001993",
+      "documentSha256": "2c97ff0df6b4a0fbdb213122f3bdbd34ad9384651cdbea2d2dffa0a4fc5e5859",
+      "rows": [
+        {
+          "account": "ASSETS",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Assets",
+          "label": "자산총계",
+          "context": "CFY2025eFQA",
+          "amount": "20904546094000",
+          "cumulative": null,
+          "displayUnit": 1000
+        },
+        {
+          "account": "LIABILITIES",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Liabilities",
+          "label": "부채총계",
+          "context": "CFY2025eFQA",
+          "amount": "15098481877000",
+          "cumulative": null,
+          "displayUnit": 1000
+        },
+        {
+          "account": "EQUITY",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Equity",
+          "label": "자본총계",
+          "context": "CFY2025eFQA",
+          "amount": "5806064217000",
+          "cumulative": null,
+          "displayUnit": 1000
+        },
+        {
+          "account": "REVENUE",
+          "division": "CIS",
+          "group": "{XBRL}IS_C1",
+          "code": "ifrs-full_Revenue",
+          "label": "매출액 (주24,29,30,38,42)",
+          "context": "CFY2025dFQQ",
+          "amount": "3822515741000",
+          "cumulative": "3822515741000",
+          "displayUnit": 1000
+        },
+        {
+          "account": "OPERATING_PROFIT",
+          "division": "CIS",
+          "group": "{XBRL}IS_C1",
+          "code": "dart_OperatingIncomeLoss",
+          "label": "영업이익",
+          "context": "CFY2025dFQQ",
+          "amount": "433734171000",
+          "cumulative": "433734171000",
+          "displayUnit": 1000
+        },
+        {
+          "account": "NET_INCOME",
+          "division": "CIS",
+          "group": "{XBRL}IS_C1",
+          "code": "ifrs-full_ProfitLoss",
+          "label": "분기순이익",
+          "context": "CFY2025dFQQ",
+          "amount": "284230314000",
+          "cumulative": "284230314000",
+          "displayUnit": 1000
+        }
+      ]
+    },
+    {
+      "corpCode": "01515323",
+      "fiscalYear": 2025,
+      "reportType": "Q1",
+      "receiptNumber": "20250515000407",
+      "documentSha256": "bfb0f48436486979612855776142c3f1d4da6fc1c13ed7cf6410f2321ff59a8c",
+      "rows": [
+        {
+          "account": "ASSETS",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Assets",
+          "label": "자산총계",
+          "context": "CFY2025eFQA",
+          "amount": "62298978000000",
+          "cumulative": null,
+          "displayUnit": 1000000
+        },
+        {
+          "account": "LIABILITIES",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Liabilities",
+          "label": "부채총계",
+          "context": "CFY2025eFQA",
+          "amount": "31028433000000",
+          "cumulative": null,
+          "displayUnit": 1000000
+        },
+        {
+          "account": "EQUITY",
+          "division": "BS",
+          "group": "{XBRL}BS_C",
+          "code": "ifrs-full_Equity",
+          "label": "자본총계",
+          "context": "CFY2025eFQA",
+          "amount": "31270545000000",
+          "cumulative": null,
+          "displayUnit": 1000000
+        },
+        {
+          "account": "REVENUE",
+          "division": "IS",
+          "group": "{XBRL}IS_C2",
+          "code": "ifrs-full_Revenue",
+          "label": "매출액",
+          "context": "CFY2025dFQQ",
+          "amount": "6264995000000",
+          "cumulative": "6264995000000",
+          "displayUnit": 1000000
+        },
+        {
+          "account": "OPERATING_PROFIT",
+          "division": "IS",
+          "group": "{XBRL}IS_C2",
+          "code": "dart_OperatingIncomeLoss",
+          "label": "영업이익",
+          "context": "CFY2025dFQQ",
+          "amount": "374673000000",
+          "cumulative": "374673000000",
+          "displayUnit": 1000000
+        },
+        {
+          "account": "NET_INCOME",
+          "division": "IS",
+          "group": "{XBRL}IS_C2",
+          "code": "ifrs-full_ProfitLoss",
+          "label": "분기순이익(손실)",
+          "context": "CFY2025dFQQ",
+          "amount": "226573000000",
+          "cumulative": "226573000000",
+          "displayUnit": 1000000
+        }
+      ]
+    }
+  ]
+}

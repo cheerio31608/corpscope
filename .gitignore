@@ -1,0 +1,14 @@
+.gradle/
+build/
+.tools/
+.reports/
+.env
+.env.*
+!.env.example
+application-local.yml
+**/application-local.yml
+*.log
+.idea/
+*.iml
+__pycache__/
+*.pyc

@@ -1,0 +1,59 @@
+spring:
+  application:
+    name: corpscope
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/corpscope}
+    username: ${DB_USERNAME:corpscope}
+    password: ${DB_PASSWORD:}
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+  flyway:
+    enabled: true
+  batch:
+    job:
+      enabled: false
+    jdbc:
+      initialize-schema: never
+  jackson:
+    deserialization:
+      fail-on-unknown-properties: false
+server:
+  address: ${SERVER_ADDRESS:127.0.0.1}
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      show-details: never
+opendart:
+  base-url: https://opendart.fss.or.kr/api
+  api-key: ${OPENDART_API_KEY:}
+  connect-timeout: 3s
+  read-timeout: 15s
+corpscope:
+  analysis:
+    excluded-company-reasons:
+      '[00877059]': 'Samsung Biologics: spin-off and discontinued operations restated comparative income; comparable-basis analysis is pending review'
+      '[00635134]': 'CJ CheilJedang: F&C discontinued operations and Selecta sale-plan withdrawal restated 2024 comparisons in the 2025 report; comparable-basis analysis is pending review'
+    # Exact report scope only. These reviewed breaks do not exclude the entire company.
+    excluded-period-reasons:
+      '[00159193:2022:ANNUAL:CFS]': 'KEPCO: K-IFRS 1016 amendment restated 2021 income and balance comparisons; receipt 20230525000309'
+      '[00261285:2017:ANNUAL:CFS]': 'KOGAS: prior-year settlement-profit error correction restated 2016 comparisons; receipt 20180329000730'
+      '[00261285:2018:ANNUAL:CFS]': 'KOGAS: 2017 comparative revenue and operating profit differ; detailed cause remains under review; receipt 20190401004174'
+      '[00266961:2020:ANNUAL:CFS]': 'NAVER: LINE discontinued operations changed 2019 comparative revenue and operating profit; receipt 20210316001214'
+      '[00145880:2017:ANNUAL:CFS]': 'Hyundai Steel: investment-property fair-value policy restated 2016 comparisons; receipt 20180402004372'
+      '[00164779:2020:ANNUAL:CFS]': 'SK hynix: lease-term accounting policy restated 2019 comparisons; receipt 20210330000776'
+      '[00164779:2022:ANNUAL:CFS]': 'SK hynix: final Intel NAND acquisition accounting restated 2021 assets and liabilities; receipt 20230321001209'
+      '[00164742:2023:ANNUAL:CFS]': 'Hyundai Motor: Russian HMMR discontinued operations changed 2022 comparative revenue and operating profit; receipt 20240313001451'
+  batch:
+    chunk-size: 5
+    schedule-enabled: false
+    cron: '0 0 3 * * *'
+    corp-codes: '00126380'
+    fiscal-year: 2024
+    report-type: ANNUAL
+    statement-type: CFS

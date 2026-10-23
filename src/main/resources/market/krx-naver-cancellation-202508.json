@@ -1,0 +1,17 @@
+{
+  "profile": "KRX_KIND_NAVER_20250829_SHARE_CANCELLATION_V1",
+  "reviewedOn": "2026-10-15",
+  "stockCode": "035420",
+  "receiptNumber": "20250826000123",
+  "announcedAt": "2025-08-26T17:03:00+09:00",
+  "retiredOn": "2025-08-12",
+  "listedOn": "2025-08-29",
+  "beforeShares": "158437008",
+  "afterShares": "156852638",
+  "cancelledShares": "1584370",
+  "source": "https://kind.krx.co.kr/external/2025/08/26/000123/20250826000409/68155.htm",
+  "rawSha256": "55e755d9e2171db493a807542630f8bbf519e1ed8ea16925d461fcb68ed93179",
+  "scope": "COMMON_SHARES_ONLY; listing-date explanation, not adjustment-factor approval",
+  "corporateActionCoverageReviewed": false,
+  "adjustmentFactorApproved": false
+}

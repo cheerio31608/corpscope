@@ -1,0 +1,15 @@
+{
+  "status": "000",
+  "message": "synthetic fixture",
+  "corp_code": "00000003",
+  "corp_name": " 가상 정제검증기업 ",
+  "stock_code": "000003",
+  "jurir_no": "0000000000003",
+  "bizr_no": "0000000003",
+  "ceo_nm": "",
+  "induty_code": "000",
+  "est_dt": "20200229",
+  "adres": "",
+  "hm_url": "",
+  "synthetic": true
+}

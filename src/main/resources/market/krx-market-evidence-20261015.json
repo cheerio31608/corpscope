@@ -1,0 +1,60 @@
+{
+  "profile": "KRX_KOSPI_PARTIAL_MARKET_EVIDENCE_20261015_V1",
+  "market": "KOSPI",
+  "reviewedOn": "2026-10-15",
+  "sessionNotices": [
+    {
+      "tradingDate": "2025-01-02",
+      "regularOpen": "10:00",
+      "regularClose": "15:30",
+      "zone": "Asia/Seoul",
+      "source": "https://kind.krx.co.kr/external/2024/12/17/000106/20241217000237/99303.htm",
+      "rawSha256": "9b1ed2bf7114d958fb931c4408a5a37d8ffecd9801abdd97ea65c85ced57bb31",
+      "announcedAt": null,
+      "scope": "KOSPI_COMMON_STOCK_REGULAR_MARKET_SCHEDULE_ONLY; listing publication time not verified; not proof of actual uninterrupted sessions"
+    },
+    {
+      "tradingDate": "2025-11-13",
+      "regularOpen": "10:00",
+      "regularClose": "16:30",
+      "zone": "Asia/Seoul",
+      "source": "https://kind.krx.co.kr/external/2025/10/30/000102/20251030000137/99303.htm",
+      "rawSha256": "f34bd2f0873506c767e4a1985c9885b0be0920bf564564d87460f61b5395df3d",
+      "announcedAt": null,
+      "scope": "KOSPI_COMMON_STOCK_REGULAR_MARKET_SCHEDULE_ONLY; source also states ordinary hours 09:00-15:30; no full-year exception clearance"
+    }
+  ],
+  "cashDividendNotices": [
+    {
+      "stockCode": "000660",
+      "receiptNumber": "20250827000340",
+      "announcedAt": "2025-08-27T15:57:00+09:00",
+      "exDividendDate": "2025-08-28",
+      "source": "https://kind.krx.co.kr/external/2025/08/27/000340/20250827001041/99335.htm",
+      "rawSha256": "cb5bc3213692f3c2fdb8de5b759ec0e79ef366e5b04d3e9fad38e0f6d1ab44c5",
+      "referencePriceChanged": false
+    },
+    {
+      "stockCode": "000660",
+      "receiptNumber": "20251126000457",
+      "announcedAt": "2025-11-26T16:02:00+09:00",
+      "exDividendDate": "2025-11-27",
+      "source": "https://kind.krx.co.kr/external/2025/11/26/000457/20251126001153/99335.htm",
+      "rawSha256": "1bea6c746ad2babd99939da3673f7b5882fb1c6551d1ca67246b351a4646db6d",
+      "referencePriceChanged": false
+    }
+  ],
+  "providerPublication": {
+    "source": "https://openapi.krx.co.kr/contents/OPP/COMM/faq/OPPCOMM004.cmd",
+    "archivedResponseSha256": "4496a9b49d9aacf268d83595433ae8302d4463fbd51ca98d1832ff81dc3de7e0",
+    "faqSequences": ["10", "24"],
+    "faqModifiedAt": ["2026-05-04 14:07", "2026-05-06 11:23"],
+    "currentPolicy": "NEXT_BUSINESS_DAY_08_00_KST",
+    "historicalPublicationTimesReviewed": false,
+    "historicalResponseRevisionsReviewed": false,
+    "reason": "Current policy and 2026 modification dates do not prove 2025 release times or historical response values"
+  },
+  "fullSessionCoverageReviewed": false,
+  "fullCorporateActionCoverageReviewed": false,
+  "approvedForDataset": false
+}

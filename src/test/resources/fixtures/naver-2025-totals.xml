@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Exact official table/row excerpts; synthetic wrapper, not the full official document. -->
+<DOCUMENT><COMPANY-NAME AREGCIK="00266961">NAVER</COMPANY-NAME>
+<TABLE-GROUP ACLASS="{XBRL}BS_C">
+<TABLE ACLASS="NORMAL" AFIXTABLE="Y" WIDTH="600" BORDER="0">
+
+<COLGROUP WIDTH="600">
+<COL WIDTH="600"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="N" ADELETE="N" HEIGHT="30">
+<TE ENG="Consolidated Statement Of FinancialPosition" ALIGN="CENTER" VALIGN="MIDDLE" WIDTH="591" HEIGHT="23" AUPDATECONT="N">연결 재무상태표</TE>
+</TR>
+
+<TR ACOPY="N" ADELETE="N" HEIGHT="30">
+<TE ENG="FY 2025              12/31/2025 Current" ALIGN="CENTER" VALIGN="MIDDLE" WIDTH="591" HEIGHT="23" AUPDATECONT="N">제 27 기          2025.12.31 현재</TE>
+</TR>
+
+<TR ACOPY="N" ADELETE="N" HEIGHT="30">
+<TE ENG="FY 2024              12/31/2024 Current" ALIGN="CENTER" VALIGN="MIDDLE" WIDTH="591" HEIGHT="23" AUPDATECONT="N">제 26 기          2024.12.31 현재</TE>
+</TR>
+
+<TR ACOPY="N" ADELETE="N" HEIGHT="30">
+<TE ENG="FY 2023              12/31/2023 Current" ALIGN="CENTER" VALIGN="MIDDLE" WIDTH="591" HEIGHT="23" AUPDATECONT="N">제 25 기          2023.12.31 현재</TE>
+</TR>
+
+<TR ACOPY="N" ADELETE="N" HEIGHT="30">
+<TE ENG="(Unit : KRW)" ALIGN="RIGHT" VALIGN="BOTTOM" WIDTH="591" HEIGHT="23" AUPDATECONT="N">(단위 : 원)</TE>
+</TR>
+</TBODY>
+</TABLE>
+<TABLE><TBODY>
+<TR ACOPY="N" ADELETE="N" HEIGHT="30">
+<TE ENG="　Total assets" VALIGN="MIDDLE" WIDTH="361" HEIGHT="23" AUPDATECONT="N">　자산총계</TE>
+<TE ACODE="ifrs-full_Assets" ACONTEXT="CFY2025eFY_ifrs-full_ConsolidatedAndSeparateFinancialStatementsAxis_ifrs-full_ConsolidatedMember" ADECIMAL="0" ANEGATED="N" ALIGN="RIGHT" VALIGN="MIDDLE" WIDTH="145" HEIGHT="23" AUPDATECONT="N">41,084,496,327,318</TE>
+<TE ACODE="ifrs-full_Assets" ACONTEXT="PFY2024eFY_ifrs-full_ConsolidatedAndSeparateFinancialStatementsAxis_ifrs-full_ConsolidatedMember" ADECIMAL="0" ANEGATED="N" ALIGN="RIGHT" VALIGN="MIDDLE" WIDTH="145" HEIGHT="23" AUPDATECONT="N">38,167,876,036,020</TE>
+<TE ACODE="ifrs-full_Assets" ACONTEXT="BPFY2023eFY_ifrs-full_ConsolidatedAndSeparateFinancialStatementsAxis_ifrs-full_ConsolidatedMember" ADECIMAL="0" ANEGATED="N" ALIGN="RIGHT" VALIGN="MIDDLE" WIDTH="145" HEIGHT="23" AUPDATECONT="N">35,737,826,964,395</TE>
+</TR>
+<TR ACOPY="N" ADELETE="N" HEIGHT="30">
+<TE ENG="　Total liabilities" VALIGN="MIDDLE" WIDTH="361" HEIGHT="23" AUPDATECONT="N">　부채총계</TE>
+<TE ACODE="ifrs-full_Liabilities" ACONTEXT="CFY2025eFY_ifrs-full_ConsolidatedAndSeparateFinancialStatementsAxis_ifrs-full_ConsolidatedMember" ADECIMAL="0" ANEGATED="N" ALIGN="RIGHT" VALIGN="MIDDLE" WIDTH="145" HEIGHT="23" AUPDATECONT="N">12,131,482,961,723</TE>
+<TE ACODE="ifrs-full_Liabilities" ACONTEXT="PFY2024eFY_ifrs-full_ConsolidatedAndSeparateFinancialStatementsAxis_ifrs-full_ConsolidatedMember" ADECIMAL="0" ANEGATED="N" ALIGN="RIGHT" VALIGN="MIDDLE" WIDTH="145" HEIGHT="23" AUPDATECONT="N">11,166,964,187,683</TE>
+<TE ACODE="ifrs-full_Liabilities" ACONTEXT="BPFY2023eFY_ifrs-full_ConsolidatedAndSeparateFinancialStatementsAxis_ifrs-full_ConsolidatedMember" ADECIMAL="0" ANEGATED="N" ALIGN="RIGHT" VALIGN="MIDDLE" WIDTH="145" HEIGHT="23" AUPDATECONT="N">11,499,828,148,842</TE>
+</TR>
+<TR ACOPY="N" ADELETE="N" HEIGHT="30">
+<TE ENG="　Total equity" VALIGN="MIDDLE" WIDTH="361" HEIGHT="23" AUPDATECONT="N">　자본총계</TE>
+<TE ACODE="ifrs-full_Equity" ACONTEXT="CFY2025eFY_ifrs-full_ConsolidatedAndSeparateFinancialStatementsAxis_ifrs-full_ConsolidatedMember" ADECIMAL="0" ANEGATED="N" ALIGN="RIGHT" VALIGN="MIDDLE" WIDTH="145" HEIGHT="23" AUPDATECONT="N">28,953,013,365,595</TE>
+<TE ACODE="ifrs-full_Equity" ACONTEXT="PFY2024eFY_ifrs-full_ConsolidatedAndSeparateFinancialStatementsAxis_ifrs-full_ConsolidatedMember" ADECIMAL="0" ANEGATED="N" ALIGN="RIGHT" VALIGN="MIDDLE" WIDTH="145" HEIGHT="23" AUPDATECONT="N">27,000,911,848,337</TE>
+<TE ACODE="ifrs-full_Equity" ACONTEXT="BPFY2023eFY_ifrs-full_ConsolidatedAndSeparateFinancialStatementsAxis_ifrs-full_ConsolidatedMember" ADECIMAL="0" ANEGATED="N" ALIGN="RIGHT" VALIGN="MIDDLE" WIDTH="145" HEIGHT="23" AUPDATECONT="N">24,237,998,815,553</TE>
+</TR>
+</TBODY></TABLE></TABLE-GROUP>
+<TABLE-GROUP ACLASS="{XBRL}IS_C1">
+<TABLE ACLASS="NORMAL" AFIXTABLE="Y" WIDTH="600" BORDER="0">
+
+<COLGROUP WIDTH="600">
+<COL WIDTH="600"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="N" ADELETE="N" HEIGHT="30">
+<TE ENG="Consolidated Statement Of ComprehensiveIncome" ALIGN="CENTER" VALIGN="MIDDLE" WIDTH="591" HEIGHT="23" AUPDATECONT="N">연결 포괄손익계산서</TE>
+</TR>
+
+<TR ACOPY="N" ADELETE="N" HEIGHT="30">
+<TE ENG="FY 2025               From 01/01/2025 To 12/31/2025" ALIGN="CENTER" VALIGN="MIDDLE" WIDTH="591" HEIGHT="23" AUPDATECONT="N">제 27 기 2025.01.01 부터 2025.12.31 까지</TE>
+</TR>
+
+<TR ACOPY="N" ADELETE="N" HEIGHT="30">
+<TE ENG="FY 2024               From 01/01/2024 To 12/31/2024" ALIGN="CENTER" VALIGN="MIDDLE" WIDTH="591" HEIGHT="23" AUPDATECONT="N">제 26 기 2024.01.01 부터 2024.12.31 까지</TE>
+</TR>
+
+<TR ACOPY="N" ADELETE="N" HEIGHT="30">
+<TE ENG="FY 2023               From 01/01/2023 To 12/31/2023" ALIGN="CENTER" VALIGN="MIDDLE" WIDTH="591" HEIGHT="23" AUPDATECONT="N">제 25 기 2023.01.01 부터 2023.12.31 까지</TE>
+</TR>
+
+<TR ACOPY="N" ADELETE="N" HEIGHT="30">
+<TE ENG="(Unit : KRW)" ALIGN="RIGHT" VALIGN="BOTTOM" WIDTH="591" HEIGHT="23" AUPDATECONT="N">(단위 : 원)</TE>
+</TR>
+</TBODY>
+</TABLE>
+<TABLE><TBODY>
+<TR ACOPY="N" ADELETE="N" HEIGHT="30">
+<TE ENG="Revenue (Note35)" VALIGN="MIDDLE" WIDTH="421" HEIGHT="23" AUPDATECONT="N">영업수익 (주35)</TE>
+<TE ACODE="ifrs-full_Revenue" ACONTEXT="CFY2025dFY_ifrs-full_ConsolidatedAndSeparateFinancialStatementsAxis_ifrs-full_ConsolidatedMember" ADECIMAL="0" ANEGATED="N" ALIGN="RIGHT" VALIGN="MIDDLE" WIDTH="145" HEIGHT="23" AUPDATECONT="N">12,035,007,218,975</TE>
+<TE ACODE="ifrs-full_Revenue" ACONTEXT="PFY2024dFY_ifrs-full_ConsolidatedAndSeparateFinancialStatementsAxis_ifrs-full_ConsolidatedMember" ADECIMAL="0" ANEGATED="N" ALIGN="RIGHT" VALIGN="MIDDLE" WIDTH="145" HEIGHT="23" AUPDATECONT="N">10,737,719,264,647</TE>
+<TE ACODE="ifrs-full_Revenue" ACONTEXT="BPFY2023dFY_ifrs-full_ConsolidatedAndSeparateFinancialStatementsAxis_ifrs-full_ConsolidatedMember" ADECIMAL="0" ANEGATED="N" ALIGN="RIGHT" VALIGN="MIDDLE" WIDTH="145" HEIGHT="23" AUPDATECONT="N">9,670,643,576,585</TE>
+</TR>
+<TR ACOPY="N" ADELETE="N" HEIGHT="30">
+<TE ENG="Operating income" VALIGN="MIDDLE" WIDTH="421" HEIGHT="23" AUPDATECONT="N">영업이익</TE>
+<TE ACODE="dart_OperatingIncomeLoss" ACONTEXT="CFY2025dFY_ifrs-full_ConsolidatedAndSeparateFinancialStatementsAxis_ifrs-full_ConsolidatedMember" ADECIMAL="0" ANEGATED="N" ALIGN="RIGHT" VALIGN="MIDDLE" WIDTH="145" HEIGHT="23" AUPDATECONT="N">2,208,138,388,720</TE>
+<TE ACODE="dart_OperatingIncomeLoss" ACONTEXT="PFY2024dFY_ifrs-full_ConsolidatedAndSeparateFinancialStatementsAxis_ifrs-full_ConsolidatedMember" ADECIMAL="0" ANEGATED="N" ALIGN="RIGHT" VALIGN="MIDDLE" WIDTH="145" HEIGHT="23" AUPDATECONT="N">1,979,263,438,827</TE>
+<TE ACODE="dart_OperatingIncomeLoss" ACONTEXT="BPFY2023dFY_ifrs-full_ConsolidatedAndSeparateFinancialStatementsAxis_ifrs-full_ConsolidatedMember" ADECIMAL="0" ANEGATED="N" ALIGN="RIGHT" VALIGN="MIDDLE" WIDTH="145" HEIGHT="23" AUPDATECONT="N">1,488,820,269,608</TE>
+</TR>
+<TR ACOPY="N" ADELETE="N" HEIGHT="30">
+<TE ENG="Profit for the period" VALIGN="MIDDLE" WIDTH="421" HEIGHT="23" AUPDATECONT="N">당기순이익</TE>
+<TE ACODE="ifrs-full_ProfitLoss" ACONTEXT="CFY2025dFY_ifrs-full_ConsolidatedAndSeparateFinancialStatementsAxis_ifrs-full_ConsolidatedMember" ADECIMAL="0" ANEGATED="N" ALIGN="RIGHT" VALIGN="MIDDLE" WIDTH="145" HEIGHT="23" AUPDATECONT="N">1,818,746,310,015</TE>
+<TE ACODE="ifrs-full_ProfitLoss" ACONTEXT="PFY2024dFY_ifrs-full_ConsolidatedAndSeparateFinancialStatementsAxis_ifrs-full_ConsolidatedMember" ADECIMAL="0" ANEGATED="N" ALIGN="RIGHT" VALIGN="MIDDLE" WIDTH="145" HEIGHT="23" AUPDATECONT="N">1,931,976,372,953</TE>
+<TE ACODE="ifrs-full_ProfitLoss" ACONTEXT="BPFY2023dFY_ifrs-full_ConsolidatedAndSeparateFinancialStatementsAxis_ifrs-full_ConsolidatedMember" ADECIMAL="0" ANEGATED="N" ALIGN="RIGHT" VALIGN="MIDDLE" WIDTH="145" HEIGHT="23" AUPDATECONT="N">985,017,762,493</TE>
+</TR>
+</TBODY></TABLE></TABLE-GROUP>
+</DOCUMENT>

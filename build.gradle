@@ -1,0 +1,80 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '3.5.16'
+    id 'io.spring.dependency-management' version '1.1.7'
+}
+
+group = 'io.corpscope'
+version = '0.1.0-SNAPSHOT'
+
+java { toolchain { languageVersion = JavaLanguageVersion.of(21) } }
+repositories { mavenCentral() }
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.boot:spring-boot-starter-batch'
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
+    implementation 'org.flywaydb:flyway-core'
+    implementation 'org.flywaydb:flyway-database-postgresql'
+    // DART document XML contains HTML-like tables and invalid XML entities; parse locally without network access.
+    implementation 'org.jsoup:jsoup:1.23.2'
+    runtimeOnly 'org.postgresql:postgresql'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'org.springframework.batch:spring-batch-test'
+    testImplementation 'org.springframework.boot:spring-boot-testcontainers'
+    testImplementation 'org.testcontainers:junit-jupiter'
+    testImplementation 'org.testcontainers:postgresql'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+tasks.named('test') { useJUnitPlatform { excludeTags 'integration', 'performance', 'synthetic-performance', 'batch-comparison', 'observed-shape-performance' } }
+tasks.register('integrationTest', Test) {
+    description = 'Runs real PostgreSQL repository, migration and Batch tests (Docker required).'
+    group = 'verification'
+    testClassesDirs = sourceSets.test.output.classesDirs
+    classpath = sourceSets.test.runtimeClasspath
+    useJUnitPlatform { includeTags 'integration' }
+    shouldRunAfter test
+}
+
+tasks.register('performanceTest', Test) {
+    description = 'Measures the real JDBC writer in an isolated disposable PostgreSQL (explicit local input required).'
+    group = 'verification'
+    testClassesDirs = sourceSets.test.output.classesDirs
+    classpath = sourceSets.test.runtimeClasspath
+    useJUnitPlatform { includeTags 'performance' }
+    systemProperty 'corpscope.performance.input', System.getProperty('corpscope.performance.input', '')
+    outputs.upToDateWhen { false }
+    shouldRunAfter integrationTest
+}
+
+tasks.register('syntheticPerformanceTest', Test) {
+    description = 'Measures synthetic financial rows and representative PostgreSQL read plans in an isolated container.'
+    group = 'verification'
+    testClassesDirs = sourceSets.test.output.classesDirs
+    classpath = sourceSets.test.runtimeClasspath
+    useJUnitPlatform { includeTags 'synthetic-performance' }
+    systemProperty 'corpscope.synthetic.companies', System.getProperty('corpscope.synthetic.companies', '100')
+    outputs.upToDateWhen { false }
+}
+
+tasks.register('batchComparisonTest', Test) {
+    description = 'Compares JDBC batch sizes and pgJDBC rewrite setting using synthetic rows in disposable PostgreSQL.'
+    group = 'verification'
+    testClassesDirs = sourceSets.test.output.classesDirs
+    classpath = sourceSets.test.runtimeClasspath
+    useJUnitPlatform { includeTags 'batch-comparison' }
+    outputs.upToDateWhen { false }
+}
+
+tasks.register('observedShapePerformanceTest', Test) {
+    description = 'Compares pgJDBC batch rewrite with the observed OpenDART period-size distribution in disposable PostgreSQL.'
+    group = 'verification'
+    testClassesDirs = sourceSets.test.output.classesDirs
+    classpath = sourceSets.test.runtimeClasspath
+    useJUnitPlatform { includeTags 'observed-shape-performance' }
+    outputs.upToDateWhen { false }
+}

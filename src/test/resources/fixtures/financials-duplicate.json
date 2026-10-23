@@ -1,0 +1,35 @@
+{
+  "status": "000",
+  "message": "synthetic fixture",
+  "synthetic": true,
+  "list": [
+    {
+      "corp_code": "00000003",
+      "bsns_year": "2024",
+      "reprt_code": "11012",
+      "rcept_no": "20240814000003",
+      "sj_div": "IS",
+      "account_id": "ifrs-full_Revenue",
+      "account_nm": "매출",
+      "account_detail": "",
+      "thstrm_amount": "12,340",
+      "thstrm_add_amount": "34,560",
+      "currency": "KRW",
+      "ord": "1"
+    },
+    {
+      "corp_code": "00000003",
+      "bsns_year": "2024",
+      "reprt_code": "11012",
+      "rcept_no": "20240814000003",
+      "sj_div": "IS",
+      "account_id": "ifrs-full_Revenue",
+      "account_nm": "매출액",
+      "account_detail": "",
+      "thstrm_amount": "12,340",
+      "thstrm_add_amount": "34,560",
+      "currency": "KRW",
+      "ord": "1"
+    }
+  ]
+}

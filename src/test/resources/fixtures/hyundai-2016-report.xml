@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Synthetic layout fixture: factual six totals match the public consolidated statement; this is not a complete official document. -->
+<DOCUMENT><COMPANY-NAME AREGCIK="00164742">Synthetic parser fixture</COMPANY-NAME>
+<TABLE-GROUP ACLASS="{XBRL}BS"><TABLE><TR><TD>연결 재무상태표 제 49 기 2016.12.31 현재 제 48 기 2015.12.31 현재 (단위 : 백만원)</TD></TR></TABLE>
+<TABLE><TR><TD>자산총계</TD><TD>178,835,928</TD><TD>165,367,946</TD><TD>147,225,117</TD></TR>
+<TR><TD>부채총계</TD><TD>106,491,350</TD><TD>98,486,545</TD><TD>84,604,552</TD></TR>
+<TR><TD>자본총계</TD><TD>72,344,578</TD><TD>66,881,401</TD><TD>62,620,565</TD></TR>
+<TR><TD>지배기업소유주지분</TD><TD>1</TD><TD>2</TD><TD>3</TD></TR></TABLE></TABLE-GROUP>
+<TABLE-GROUP ACLASS="{XBRL}IS2"><TABLE><TR><TD>연결 손익계산서 제 49 기 2016.01.01 부터 2016.12.31 까지 제 48 기 2015.01.01 부터 2015.12.31 까지 (단위 : 백만원)</TD></TR></TABLE>
+<TABLE><TR><TD>매출액</TD><TD>93,649,024</TD><TD>91,958,736</TD><TD>89,256,319</TD></TR>
+<TR><TD>영업이익</TD><TD>5,193,500</TD><TD>6,357,906</TD><TD>7,549,986</TD></TR>
+<TR><TD>연결당기순이익</TD><TD>5,719,653</TD><TD>6,509,165</TD><TD>7,649,468</TD></TR></TABLE></TABLE-GROUP>
+<TABLE-GROUP ACLASS="{XBRL}BS"><TABLE><TR><TD>재무상태표 (단위 : 백만원)</TD></TR></TABLE>
+<TABLE><TR><TD>자산총계</TD><TD>1</TD><TD>2</TD><TD>3</TD></TR></TABLE></TABLE-GROUP>
+</DOCUMENT>

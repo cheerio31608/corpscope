@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Official SK Hynix six-row excerpts; wrapper is not the complete original. -->
+<DOCUMENT><COMPANY-NAME AREGCIK="00164779">SK하이닉스</COMPANY-NAME><TABLE-GROUP ACLASS="{XBRL}BS_C"><TABLE ACLASS="NORMAL" AFIXTABLE="Y" WIDTH="600" BORDER="0">
+
+<COLGROUP WIDTH="600">
+<COL WIDTH="600"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y" HEIGHT="31">
+
+<TE ENG="Consolidated Statement Of FinancialPosition" ALIGN="CENTER" VALIGN="MIDDLE" WIDTH="591" AUPDATECONT="N" HEIGHT="24">
+<P USERMARK="F-12 B">연결 재무상태표</P>
+</TE>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y" HEIGHT="30">
+
+<TE ENG="FY 2024              12/31/2024 Current" ALIGN="CENTER" VALIGN="MIDDLE" AUPDATECONT="N" WIDTH="591" HEIGHT="23">
+<P>제 77 기          2024.12.31 현재</P>
+</TE>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y" HEIGHT="30">
+
+<TE ENG="FY 2023              12/31/2023 Current" ALIGN="CENTER" VALIGN="MIDDLE" AUPDATECONT="N" WIDTH="591" HEIGHT="23">
+<P>제 76 기          2023.12.31 현재</P>
+</TE>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y" HEIGHT="30">
+
+<TE ENG="FY 2022              12/31/2022 Current" ALIGN="CENTER" VALIGN="MIDDLE" AUPDATECONT="N" WIDTH="591" HEIGHT="23">
+<P>제 75 기          2022.12.31 현재</P>
+</TE>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y" HEIGHT="30">
+
+<TE ENG="(Unit : million, KRW)" ALIGN="RIGHT" VALIGN="BOTTOM" AUPDATECONT="N" WIDTH="591" HEIGHT="23">
+<P>(단위 : 백만원)</P>
+</TE>
+</TR>
+</TBODY>
+</TABLE><TABLE><TR ACOPY="Y" ADELETE="Y" HEIGHT="30">
+
+<TE ENG="　Total assets" VALIGN="MIDDLE" AUPDATECONT="N" WIDTH="141" HEIGHT="23">
+<P>　자산총계</P>
+</TE>
+
+<TE ACODE="ifrs-full_Assets" ACONTEXT="CFY2024eFY_ifrs-full_ConsolidatedAndSeparateFinancialStatementsAxis_ifrs-full_ConsolidatedMember" ADECIMAL="-6" ALIGN="RIGHT" VALIGN="MIDDLE" AUPDATECONT="N" WIDTH="141" HEIGHT="23">
+<P>119,855,209</P>
+</TE>
+
+<TE ACODE="ifrs-full_Assets" ACONTEXT="PFY2023eFY_ifrs-full_ConsolidatedAndSeparateFinancialStatementsAxis_ifrs-full_ConsolidatedMember" ADECIMAL="-6" ALIGN="RIGHT" VALIGN="MIDDLE" AUPDATECONT="N" WIDTH="141" HEIGHT="23">
+<P>100,330,165</P>
+</TE>
+
+<TE ACODE="ifrs-full_Assets" ACONTEXT="BPFY2022eFY_ifrs-full_ConsolidatedAndSeparateFinancialStatementsAxis_ifrs-full_ConsolidatedMember" ADECIMAL="-6" ALIGN="RIGHT" VALIGN="MIDDLE" AUPDATECONT="N" WIDTH="141" HEIGHT="23">
+<P>103,871,512</P>
+</TE>
+</TR><TR ACOPY="Y" ADELETE="Y" HEIGHT="30">
+
+<TE ENG="　Total liabilities" VALIGN="MIDDLE" AUPDATECONT="N" WIDTH="141" HEIGHT="23">
+<P>　부채총계</P>
+</TE>
+
+<TE ACODE="ifrs-full_Liabilities" ACONTEXT="CFY2024eFY_ifrs-full_ConsolidatedAndSeparateFinancialStatementsAxis_ifrs-full_ConsolidatedMember" ADECIMAL="-6" ALIGN="RIGHT" VALIGN="MIDDLE" AUPDATECONT="N" WIDTH="141" HEIGHT="23">
+<P>45,939,505</P>
+</TE>
+
+<TE ACODE="ifrs-full_Liabilities" ACONTEXT="PFY2023eFY_ifrs-full_ConsolidatedAndSeparateFinancialStatementsAxis_ifrs-full_ConsolidatedMember" ADECIMAL="-6" ALIGN="RIGHT" VALIGN="MIDDLE" AUPDATECONT="N" WIDTH="141" HEIGHT="23">
+<P>46,826,413</P>
+</TE>
+
+<TE ACODE="ifrs-full_Liabilities" ACONTEXT="BPFY2022eFY_ifrs-full_ConsolidatedAndSeparateFinancialStatementsAxis_ifrs-full_ConsolidatedMember" ADECIMAL="-6" ALIGN="RIGHT" VALIGN="MIDDLE" AUPDATECONT="N" WIDTH="141" HEIGHT="23">
+<P>40,580,970</P>
+</TE>
+</TR><TR ACOPY="Y" ADELETE="Y" HEIGHT="30">
+
+<TE ENG="　Total equity" VALIGN="MIDDLE" AUPDATECONT="N" WIDTH="141" HEIGHT="23">
+<P>　자본총계</P>
+</TE>
+
+<TE ACODE="ifrs-full_Equity" ACONTEXT="CFY2024eFY_ifrs-full_ConsolidatedAndSeparateFinancialStatementsAxis_ifrs-full_ConsolidatedMember" ADECIMAL="-6" ALIGN="RIGHT" VALIGN="MIDDLE" AUPDATECONT="N" WIDTH="141" HEIGHT="23">
+<P>73,915,704</P>
+</TE>
+
+<TE ACODE="ifrs-full_Equity" ACONTEXT="PFY2023eFY_ifrs-full_ConsolidatedAndSeparateFinancialStatementsAxis_ifrs-full_ConsolidatedMember" ADECIMAL="-6" ALIGN="RIGHT" VALIGN="MIDDLE" AUPDATECONT="N" WIDTH="141" HEIGHT="23">
+<P>53,503,752</P>
+</TE>
+
+<TE ACODE="ifrs-full_Equity" ACONTEXT="BPFY2022eFY_ifrs-full_ConsolidatedAndSeparateFinancialStatementsAxis_ifrs-full_ConsolidatedMember" ADECIMAL="-6" ALIGN="RIGHT" VALIGN="MIDDLE" AUPDATECONT="N" WIDTH="141" HEIGHT="23">
+<P>63,290,542</P>
+</TE>
+</TR></TABLE></TABLE-GROUP><TABLE-GROUP ACLASS="{XBRL}IS_C1"><TABLE ACLASS="NORMAL" AFIXTABLE="Y" WIDTH="600" BORDER="0">
+
+<COLGROUP WIDTH="600">
+<COL WIDTH="600"></COL>
+</COLGROUP>
+
+<TBODY>
+
+<TR ACOPY="Y" ADELETE="Y" HEIGHT="31">
+
+<TE ENG="Consolidated Statement Of ComprehensiveIncome" ALIGN="CENTER" VALIGN="MIDDLE" WIDTH="591" AUPDATECONT="N" HEIGHT="24">
+<P USERMARK="F-12 B">연결 포괄손익계산서</P>
+</TE>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y" HEIGHT="30">
+
+<TE ENG="FY 2024               From 01/01/2024 To 12/31/2024" ALIGN="CENTER" VALIGN="MIDDLE" AUPDATECONT="N" WIDTH="591" HEIGHT="23">
+<P>제 77 기 2024.01.01 부터 2024.12.31 까지</P>
+</TE>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y" HEIGHT="30">
+
+<TE ENG="FY 2023               From 01/01/2023 To 12/31/2023" ALIGN="CENTER" VALIGN="MIDDLE" AUPDATECONT="N" WIDTH="591" HEIGHT="23">
+<P>제 76 기 2023.01.01 부터 2023.12.31 까지</P>
+</TE>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y" HEIGHT="30">
+
+<TE ENG="FY 2022               From 01/01/2022 To 12/31/2022" ALIGN="CENTER" VALIGN="MIDDLE" AUPDATECONT="N" WIDTH="591" HEIGHT="23">
+<P>제 75 기 2022.01.01 부터 2022.12.31 까지</P>
+</TE>
+</TR>
+
+<TR ACOPY="Y" ADELETE="Y" HEIGHT="30">
+
+<TE ENG="(Unit : million, KRW)" ALIGN="RIGHT" VALIGN="BOTTOM" AUPDATECONT="N" WIDTH="591" HEIGHT="23">
+<P>(단위 : 백만원)</P>
+</TE>
+</TR>
+</TBODY>
+</TABLE><TABLE><TR ACOPY="Y" ADELETE="Y" HEIGHT="30">
+
+<TE ENG="Revenue (Note4,24,31)" VALIGN="MIDDLE" AUPDATECONT="N" WIDTH="141" HEIGHT="23">
+<P>매출액 (주4,24,31)</P>
+</TE>
+
+<TE ACODE="ifrs-full_Revenue" ACONTEXT="CFY2024dFY_ifrs-full_ConsolidatedAndSeparateFinancialStatementsAxis_ifrs-full_ConsolidatedMember" ADECIMAL="-6" ALIGN="RIGHT" VALIGN="MIDDLE" AUPDATECONT="N" WIDTH="141" HEIGHT="23">
+<P>66,192,960</P>
+</TE>
+
+<TE ACODE="ifrs-full_Revenue" ACONTEXT="PFY2023dFY_ifrs-full_ConsolidatedAndSeparateFinancialStatementsAxis_ifrs-full_ConsolidatedMember" ADECIMAL="-6" ALIGN="RIGHT" VALIGN="MIDDLE" AUPDATECONT="N" WIDTH="141" HEIGHT="23">
+<P>32,765,719</P>
+</TE>
+
+<TE ACODE="ifrs-full_Revenue" ACONTEXT="BPFY2022dFY_ifrs-full_ConsolidatedAndSeparateFinancialStatementsAxis_ifrs-full_ConsolidatedMember" ADECIMAL="-6" ALIGN="RIGHT" VALIGN="MIDDLE" AUPDATECONT="N" WIDTH="141" HEIGHT="23">
+<P>44,621,568</P>
+</TE>
+</TR><TR ACOPY="Y" ADELETE="Y" HEIGHT="30">
+
+<TE ENG="Operating income(loss)" VALIGN="MIDDLE" AUPDATECONT="N" WIDTH="141" HEIGHT="23">
+<P>영업이익(손실)</P>
+</TE>
+
+<TE ACODE="dart_OperatingIncomeLoss" ACONTEXT="CFY2024dFY_ifrs-full_ConsolidatedAndSeparateFinancialStatementsAxis_ifrs-full_ConsolidatedMember" ADECIMAL="-6" ALIGN="RIGHT" VALIGN="MIDDLE" AUPDATECONT="N" WIDTH="141" HEIGHT="23">
+<P>23,467,319</P>
+</TE>
+
+<TE ACODE="dart_OperatingIncomeLoss" ACONTEXT="PFY2023dFY_ifrs-full_ConsolidatedAndSeparateFinancialStatementsAxis_ifrs-full_ConsolidatedMember" ADECIMAL="-6" ALIGN="RIGHT" VALIGN="MIDDLE" AUPDATECONT="N" WIDTH="141" HEIGHT="23">
+<P>(7,730,313)</P>
+</TE>
+
+<TE ACODE="dart_OperatingIncomeLoss" ACONTEXT="BPFY2022dFY_ifrs-full_ConsolidatedAndSeparateFinancialStatementsAxis_ifrs-full_ConsolidatedMember" ADECIMAL="-6" ALIGN="RIGHT" VALIGN="MIDDLE" AUPDATECONT="N" WIDTH="141" HEIGHT="23">
+<P>6,809,417</P>
+</TE>
+</TR><TR ACOPY="Y" ADELETE="Y" HEIGHT="30">
+
+<TE ENG="Profit (loss)" VALIGN="MIDDLE" AUPDATECONT="N" WIDTH="141" HEIGHT="23">
+<P>당기순이익(손실)</P>
+</TE>
+
+<TE ACODE="ifrs-full_ProfitLoss" ACONTEXT="CFY2024dFY_ifrs-full_ConsolidatedAndSeparateFinancialStatementsAxis_ifrs-full_ConsolidatedMember" ADECIMAL="-6" ALIGN="RIGHT" VALIGN="MIDDLE" AUPDATECONT="N" WIDTH="141" HEIGHT="23">
+<P>19,796,902</P>
+</TE>
+
+<TE ACODE="ifrs-full_ProfitLoss" ACONTEXT="PFY2023dFY_ifrs-full_ConsolidatedAndSeparateFinancialStatementsAxis_ifrs-full_ConsolidatedMember" ADECIMAL="-6" ALIGN="RIGHT" VALIGN="MIDDLE" AUPDATECONT="N" WIDTH="141" HEIGHT="23">
+<P>(9,137,547)</P>
+</TE>
+
+<TE ACODE="ifrs-full_ProfitLoss" ACONTEXT="BPFY2022dFY_ifrs-full_ConsolidatedAndSeparateFinancialStatementsAxis_ifrs-full_ConsolidatedMember" ADECIMAL="-6" ALIGN="RIGHT" VALIGN="MIDDLE" AUPDATECONT="N" WIDTH="141" HEIGHT="23">
+<P>2,241,669</P>
+</TE>
+</TR></TABLE></TABLE-GROUP></DOCUMENT>
