@@ -1,0 +1,17 @@
+{
+  "policy": "EXPLORATORY_MONTHLY_CANCELLATION_FOLLOW_ON_2026_V1",
+  "status": "EXPLORATORY_BACKTEST_NOT_POINT_IN_TIME_APPROVED",
+  "frozenBeforeScoring": "2026-10-23",
+  "testOriginMonths": ["2026-01", "2026-02", "2026-03", "2026-04", "2026-05", "2026-06", "2026-07", "2026-08"],
+  "testTargetMonths": ["2026-02", "2026-03", "2026-04", "2026-05", "2026-06", "2026-07", "2026-08", "2026-09"],
+  "validationYear": 2025,
+  "trainingCutoff": "2025-01-01",
+  "refitCutoff": "2026-01-01",
+  "candidateOrder": ["recent_0pct", "linear_expanding", "linear_trailing_36", "lightgbm_expanding", "lightgbm_trailing_36"],
+  "selection": "Select one candidate per arm using 2025 validation MAE; refit only on labels available before 2026-01-01. Do not alter the candidate set, cohort, parameters or choice using 2026 scores.",
+  "lightgbm": {"n_estimators": 60, "num_leaves": 7, "min_child_samples": 20, "learning_rate": 0.05, "max_depth": 3, "objective": "regression_l1", "random_state": 42, "n_jobs": 1, "verbosity": -1},
+  "cohort": "The same eight stocks and identical eligible company-month rows in both arms. Require full origin and target calendar months, a subsequent observed date for label availability, six previous months and positive prices/volume. Exclude any feature or target interval crossing an unreviewed listed-share change. Verify reviewed cancellation share changes against immutable KRX raw days.",
+  "cancellation": "120 calendar day lookback; use only original and correction quantities available from the next KST date after each disclosure. Execution date and later listed-share observation are audit-only.",
+  "metric": "Paired MAE of next-month mean unadjusted close-price change, percentage points; also report the 0% recent-value baseline and positive-signal sample size.",
+  "limitations": "2026 prices and overlapping outcomes were previously inspected in this project. This is a retrospectively scored follow-on period, not an untouched holdout or point-in-time approved dataset. Historical posting times, dividends and complete corporate actions are not reconstructed."
+}

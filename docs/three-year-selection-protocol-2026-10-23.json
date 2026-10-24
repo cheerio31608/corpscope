@@ -1,0 +1,41 @@
+{
+  "policy": "THREE_YEAR_WALK_FORWARD_SELECTION_V1",
+  "status": "EXPLORATORY_BACKTEST_NOT_POINT_IN_TIME_APPROVED",
+  "testYears": [
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "target": "100 * (nextMonthMean / originLastClose - 1)",
+  "comparisonConversion": "100 * ((1 + predictedTarget / 100) * (originLastClose / originMean) - 1)",
+  "candidateOrder": [
+    "recent_0pct",
+    "linear_expanding",
+    "linear_trailing_36",
+    "lightgbm_expanding",
+    "lightgbm_trailing_36"
+  ],
+  "selection": "For test year Y, separately train before each of Y-3,Y-2,Y-1 and validate on that year, purging labels at each year end. Select smallest unweighted mean of three annual MAEs on origin-mean basis; ties follow candidateOrder. Win counts are descriptive only. Refit before Y. No test-based reselection.",
+  "lightgbm": {
+    "n_estimators": 60,
+    "num_leaves": 7,
+    "min_child_samples": 20,
+    "learning_rate": 0.05,
+    "max_depth": 3,
+    "objective": "regression_l1",
+    "random_state": 42,
+    "n_jobs": 1,
+    "verbosity": -1
+  },
+  "inputs": "Unchanged six price/volume features and eight stock indicators; identical frozen eligible rows. No disclosure numeric features.",
+  "limitations": [
+    "Previously inspected retrospective periods, not fresh holdout.",
+    "Eight stocks, correlated monthly rows, retrospective corporate-action exclusions.",
+    "KRX publication availability assumption and raw-price, dividend-excluded targets remain unchanged.",
+    "Changing the target does not add information or guarantee improvement.",
+    "Overlapping three-year validation windows are not independent replications. No significance claim from win counts."
+  ],
+  "validationYears": 3
+}

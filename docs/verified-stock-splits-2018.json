@@ -1,0 +1,28 @@
+{
+  "policy": "REVIEWED_SPLITS_ONLY_NOT_FULL_CORPORATE_ACTION_APPROVAL",
+  "events": [
+    {
+      "stockCode": "005930",
+      "company": "Samsung Electronics",
+      "firstPostSplitPriceDate": "2018-05-04",
+      "lastPreSplitPositiveOhlcDate": "2018-04-27",
+      "newSharesPerOldShare": 50,
+      "expectedPreCloseKrw": 2650000,
+      "expectedPostCloseKrw": 51900,
+      "sources": ["https://www.samsung.com/global/ir/reports-disclosures/public-disclosure-view.71265/"]
+    },
+    {
+      "stockCode": "035420",
+      "company": "NAVER",
+      "firstPostSplitPriceDate": "2018-10-12",
+      "lastPreSplitPositiveOhlcDate": "2018-10-05",
+      "newSharesPerOldShare": 5,
+      "expectedPreCloseKrw": 704000,
+      "expectedPostCloseKrw": 142000,
+      "sources": [
+        "https://www.navercorp.com/investment/irNoticeDetail?seq=1975",
+        "https://kind.krx.co.kr/external/2018/07/26/000004/20180723000337/91128.htm"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "policy": "EXPLORATORY_MONTHLY_MEAN_RETURN_RECENT_FEATURES_V1",
+  "status": "EXPLORATORY_BACKTEST_NOT_POINT_IN_TIME_APPROVED",
+  "testYears": [2022, 2023, 2024, 2025],
+  "target": "Next calendar month's arithmetic mean of observed daily closes divided by the origin month's mean close, minus one, percent",
+  "decision": "08:30 KST on first observed market date after origin month; origin month's full prices and volumes assumed available by then",
+  "featureNames": ["monthly_return_1", "monthly_return_3", "monthly_return_6", "last_close_over_month_mean", "daily_volatility_20", "monthly_volume_over_prior_3_mean", "stock_one_hot_8"],
+  "candidateOrder": ["recent_0pct", "linear_expanding", "linear_trailing_36", "lightgbm_expanding", "lightgbm_trailing_36"],
+  "selection": "For each test year, fit candidates on labels available before previous validation year; select by previous-year MAE. Refit chosen candidate on labels available before test year and score consecutive monthly origins in that year. Candidate order breaks ties.",
+  "trainingWindows": {"expanding": "all earlier eligible months", "trailing_36": "origin months within 36 calendar months before fold start"},
+  "lightgbm": {"n_estimators": 60, "num_leaves": 7, "min_child_samples": 20, "learning_rate": 0.05, "max_depth": 3, "objective": "regression_l1", "random_state": 42, "n_jobs": 1, "verbosity": -1},
+  "eligibility": "Eight-stock 2016-2025 checked KRX archive. Require six previous complete monthly means and 20 daily closes, positive prices and mean volume, and no listed-share count change in feature or target window. An unknown action excludes the affected stock-month; this retrospective filter can bias the cohort.",
+  "metric": "MAE of monthly price change in percentage points; same eligible rows for all candidates",
+  "limitations": "All historical target years have been inspected in prior experiments. KRX historical API publication versions, full corporate actions and dividends are not reconstructed. Eight stocks share market events and monthly observations are dependent. This is an exploratory raw-price comparison, not a point-in-time approved dataset."
+}

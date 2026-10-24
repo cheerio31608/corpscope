@@ -1,0 +1,14 @@
+{
+  "policy": "VALIDATION_SELECTED_MONTH_END_BLEND_V1",
+  "status": "EXPLORATORY_BACKTEST_NOT_POINT_IN_TIME_APPROVED",
+  "alphas": [0, 0.25, 0.5, 0.75, 1],
+  "testYears": [2022, 2023, 2024, 2025, 2026],
+  "formula": "lastCloseBaseline + alpha * (frozenSelectedPriceModel - lastCloseBaseline)",
+  "selection": "Previous validation year MAE only; smaller alpha breaks ties. Reuse frozen selected model and settings. No test-based reselection.",
+  "limitations": [
+    "All evaluation periods have previously been inspected; this is retrospective model development, not a fresh holdout.",
+    "Reuse identical eligible stock-month rows and label availability boundaries.",
+    "Corporate-action exclusions cause selection bias; raw price returns exclude dividends.",
+    "Model and blend selection share the validation year and can overfit it."
+  ]
+}

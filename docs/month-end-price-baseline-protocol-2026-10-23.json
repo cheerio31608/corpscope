@@ -1,0 +1,12 @@
+{
+  "policy": "EXPLORATORY_MONTH_END_CLOSE_LEVEL_BASELINE_V1",
+  "status": "EXPLORATORY_BACKTEST_NOT_POINT_IN_TIME_APPROVED",
+  "writtenBeforeThisBaselineScoring": "2026-10-23",
+  "cohorts": "Exactly the previously reported paired company-by-origin-month rows for 2022-2025 and the 2026 January-August origin months; no filtering or retrospective replacement.",
+  "prediction": "At the first observed date after the origin month, assume the next calendar month's observed-close arithmetic mean equals the origin month's last observed close. Predicted percentage change = (last origin close / origin observed-close mean - 1) * 100.",
+  "comparators": ["0% prior monthly mean persistence", "previously selected price-only forecast", "previously selected price-and-cancellation-disclosure forecast"],
+  "metric": "MAE in percentage points on identical stock-month rows, separately for each year and overall; report per-stock and per-target-month results without changing the sample.",
+  "selection": "No model fitting, parameter tuning or test-driven selection. The 2026 results were previously inspected, so this is a diagnostic retrospective benchmark, not a new untouched test.",
+  "availability": "Origin last close is assumed usable at 08:30 KST on the first observed date of the next month under the KRX typical next-business-day 08:00 release policy. Historical exact posting time and original version are unavailable.",
+  "limitations": "Unadjusted close-price mean, no dividends or executable-return claim. Existing retrospective corporate-action exclusions and their selection bias persist. Existing point-in-time approval flags remain false."
+}

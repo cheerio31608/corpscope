@@ -1,0 +1,28 @@
+{
+  "policy": "CORPSCOPE_RETROSPECTIVE_Q4_2025_63_OBSERVED_SESSIONS_V1",
+  "frozenAtKstDate": "2026-10-21",
+  "status": "EXPLORATORY_BACKTEST_NOT_POINT_IN_TIME_APPROVED",
+  "stockCodes": ["000660", "005930", "015760", "035420", "373220", "329180", "000270", "036460", "005380", "004020"],
+  "trainingDecisionEnd": "2024-08-30",
+  "trainingLabelMustPrecede": "2025-01-02",
+  "validationDecisionStart": "2025-01-02",
+  "validationDecisionEnd": "2025-06-30",
+  "validationLabelMustPrecede": "2025-10-01",
+  "testDecisionStart": "2025-10-01",
+  "testDecisionEnd": "2025-12-30",
+  "testLastLabelAvailableOn": "2026-04-06",
+  "horizonObservedSessions": 63,
+  "priceInputLatestOffsetObservedSessions": 2,
+  "priceBasis": "KRX_UNADJUSTED_OPEN_TO_CLOSE_EX_DIVIDENDS_FEES_SLIPPAGE",
+  "sourceArchiveManifestSha256": "8817ff5a2687684678303287c38b7d5296e4abb9b878b5360df79cbae717bc4d",
+  "archivedDaysThroughLabel": 794,
+  "expectedDecisionDates": 59,
+  "models": {
+    "recent_value_0pct": {"predictionPct": 0},
+    "linear_regression": {"implementation": "sklearn.linear_model.LinearRegression"},
+    "lightgbm": {"n_estimators": 60, "num_leaves": 7, "min_child_samples": 20, "learning_rate": 0.05, "max_depth": 3, "random_state": 42, "n_jobs": 1}
+  },
+  "selectionCaveat": "Q4 2025 target decision dates were not in prior comparison test windows, but the historical archive and overlapping 2026 outcomes had already been inspected. This is an additional retrospective holdout, not a pristine prospective test.",
+  "financialFeatures": "Require a fresh as-of panel export for this exact test window; do not reuse the old panel as complete.",
+  "forecastReady": false
+}

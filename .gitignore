@@ -12,3 +12,4 @@ application-local.yml
 *.iml
 __pycache__/
 *.pyc
+.venv/

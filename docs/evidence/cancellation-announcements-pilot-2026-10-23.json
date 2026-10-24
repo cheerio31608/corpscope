@@ -1,0 +1,37 @@
+{
+  "purpose": "Three reviewed cancellation announcements for as-of feature construction; observed listing changes are audit data, never forecast inputs",
+  "coverage": "PARTIAL_THREE_EVENTS_ONLY",
+  "availabilityRule": "Date-only original disclosures become usable on the following KST calendar date; exact disclosure times are not assumed",
+  "events": [
+    {
+      "stockCode": "005930",
+      "announcementDate": "2025-02-18",
+      "availableFromDate": "2025-02-19",
+      "plannedCommonShares": 50144628,
+      "announcementSource": "https://www.samsung.com/global/ir/reports-disclosures/public-disclosure-view.84318/",
+      "observedListingDate": "2025-03-06",
+      "observedShareDelta": -50144628,
+      "listingSource": "https://kind.krx.co.kr/external/2025/02/28/000236/20250228000675/68155.htm"
+    },
+    {
+      "stockCode": "005380",
+      "announcementDate": "2025-04-24",
+      "availableFromDate": "2025-04-25",
+      "plannedCommonShares": 4658425,
+      "announcementSource": "https://www.hyundai.com/worldwide/en/company/ir/notices/view-0000000319-en-10-1-",
+      "observedListingDate": "2025-05-21",
+      "observedShareDelta": -4658425,
+      "listingSource": "https://kind.krx.co.kr/disclosure/details.do?method=searchDetailsMain"
+    },
+    {
+      "stockCode": "000270",
+      "announcementDate": "2025-07-25",
+      "availableFromDate": "2025-07-26",
+      "plannedCommonShares": 3883362,
+      "announcementSource": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250725800350",
+      "observedListingDate": "2025-08-25",
+      "observedShareDelta": -3883362,
+      "listingSource": "https://kind.krx.co.kr/external/2025/08/20/000028/20250820000048/68155.htm"
+    }
+  ]
+}
